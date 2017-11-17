@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MedCheckPod_Example' do
+  pod 'MedCheckPod', :path => '../'
+
+  target 'MedCheckPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
